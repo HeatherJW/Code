@@ -1,0 +1,16 @@
+Welcome dear friend to the start of your great quest.
+You have landed on a strange island and must find the way to get home again.
+Along the way there are many objects that you can find to help you on your quest.
+Uncertain and certain death awaits you at every turn, but with cunning you can defeat the island and return safely to your home.
+
+Commands that you may find helpful:
+east
+north 
+south
+west
+eat
+take
+talk
+enter
+
+Good luck with your quest, try not to kill yourself to quickly. ;) 
