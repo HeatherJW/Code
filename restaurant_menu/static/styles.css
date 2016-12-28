@@ -1,0 +1,114 @@
+body {
+    font-family: sans-serif; background-color: #e8f8e0
+}
+
+h1, h2, h3, h4 {
+    color: #003300;
+}
+
+h1, h2 {
+    font-family: 'Palatino', serif;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.2em;
+}
+
+p {
+    color: #5a005a;
+}
+
+a {
+    text-decoration: none;
+    color: #c282e1;
+    font-size: .75em;
+}
+
+.pane {
+    position: absolute;
+    left: 25%;
+    border-radius: 25px;
+    padding: 10px 25px;
+    margin: 5px;
+    background: #D0F0C0;
+}
+
+.restaurant-list {
+    border-radius: 25px;
+    padding: 10px 25px;
+    margin: 50px;
+    background: #D0F0C0;
+}
+
+.header {
+    left: 50%;
+    text-align: center;
+}
+
+.name p {
+    width: 50%;
+    display: inline-block;
+    float: left;
+    color: #5a005a;
+    padding-bottom: 20px;
+}
+
+.description p {
+    color: #003300;
+}
+
+.price p {
+    text-align: right;
+    width: 50%;
+    float: right;
+    color: #5a005a;
+}
+
+.flash {
+    background: #ade590;
+}
+
+.create-new {
+    padding-left: 39%;
+}
+
+.create-new a {
+    border-radius: 25px;
+    display: block;
+    float: left;
+    width: auto;
+    padding: 0 20px 0 42px;
+    line-height: 40px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-size: 75%;
+    background: url(pencil.png) #5a005a no-repeat left center;
+}
+
+.create-new a:hover {
+    background-color:#e6e6e6;
+    color:#333;
+}
+
+.buttons a {
+    border-radius: 25px;
+    width: auto;
+    padding: 5px 20px;
+    line-height: 40px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-size: 75%;
+    background: #e6e6e6;
+}
+
+.restaurant, .form {
+    clear: both;
+    border: 1px solid #5a005a;
+    border-radius: 25px;
+    padding: 15px 0px 15px 30px;
+}
+
+.name {
+    padding-bottom: 10px;
+}
