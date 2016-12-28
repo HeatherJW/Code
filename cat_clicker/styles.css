@@ -1,0 +1,32 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-family: 'Palatino', serif;
+    margin: 0;
+}
+
+.click-count {
+    width: 50%;
+    display: inline;
+}
+
+.cat-image {
+    width: 50%;
+    display: inline;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    color: white;
+}
+
+li {
+    float: left;
+    margin: 10px;
+}

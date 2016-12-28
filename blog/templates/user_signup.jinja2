@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign up</title>
+        <link type="text/css" rel="stylesheet" href="/css/main.css"/>
+    </head>
+    <body>
+        <h1>Enter your user details</h1>
+        <form method="post">
+            <span class="label">Name:</span> <input type="text" name="username" value="{{username}}">{{username}}</input> <span class="error">{{error_username}}</span> <br/>
+            <span class="label">Password:</span> <input type="password" name="password" value=""></input>  <span class="error">{{error_password}}</span> <br/>
+            <span class="label">Confirm password:</span> <input type="password" name="confirm" value=""></input>  <span class="error">{{error_confirm}}</span> <br/>
+            <span class="label">E-mail address:</span> <input type="text" name="email" value="{{email}}"></input>  <span class="error">{{error_email}}</span>
+            <input type="submit"/>
+        </form>
+    </body>
+</html>

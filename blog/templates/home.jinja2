@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The awesome blog</title>
+        <link type="text/css" rel="stylesheet" href="/css/main.css"/>
+    </head>
+    <body>
+        <h1>The awesome blog</h1>
+        {% if signin %}
+            <p>Welcome {{ name }}</p>
+            <p>You can <a href="/newpost">create a new post</a>, <a href="/logout">log out</a> or read any of your posts.</p>
+            <br/>
+            {% for blogpost in blogposts %}
+                <h2>{{ blogpost.title }}</h2>
+                <div>{{ blogpost.postbody }}</div>
+                <hr/>
+            {% endfor %}
+            <br/>
+        {% else %}
+            <p>Please <a href="/login">log in</a> or <a href="/signup">create an account</a> to see your posts.</p>
+        {% endif %}
+    </body>
+</html>

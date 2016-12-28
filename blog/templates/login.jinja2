@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Log in</title>
+        <link type="text/css" rel="stylesheet" href="/css/main.css"/>
+    </head>
+    <body>
+        <p>Please log in to access your account</p>
+        <form method="post">
+            <span class="label">Name:</span> <input type="text" name="username" value="{{username}}">{{username}}</input> <span class="error">{{error_username}}</span> <br/>
+            <span class="label">Password:</span> <input type="password" name="password" value=""></input>  <span class="error">{{error_password}}</span> <br/>
+            <input type="submit"/>
+        </form>
+    </body>
+</html>
